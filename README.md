@@ -1,4 +1,4 @@
-# Trying Rust
+# 🦀 Trying Rust
 
 These are you first steps Padawan Sam
 
