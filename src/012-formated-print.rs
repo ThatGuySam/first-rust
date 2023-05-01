@@ -65,8 +65,19 @@ fn index() {
     println!("Pi is roughly {:.2}", pi);
 }
 
+fn debug() {
+
+    // This structure cannot be printed either with `fmt::Display` or
+    // with `fmt::Debug`.
+    struct UnPrintable(i32);
+
+}
+
 fn main() {
     // https://doc.rust-lang.org/rust-by-example/hello/print.html
     // index();
+
+    // https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html
+    debug();
 
 }
