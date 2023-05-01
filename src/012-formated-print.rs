@@ -1,11 +1,11 @@
+#[allow(dead_code)] 
 fn index() {
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.
     println!("{} days", 31);
 
     // Positional arguments can be used. Specifying an integer inside `{}`
-    // determines which additional argument will be replaced. Arguments start
-    // at 0 immediately after the format string.
+    // determines which additional argument will be replaced. Arguments start    // at 0 immediately after the format string.
     println!("{0}, this is {1}. {1}, this is {0}", "Sam", "Ben");
 
     // As can named arguments.
@@ -67,6 +67,6 @@ fn index() {
 
 fn main() {
     // https://doc.rust-lang.org/rust-by-example/hello/print.html
-    index();
+    // index();
 
 }
