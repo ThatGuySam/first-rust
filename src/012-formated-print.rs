@@ -1,5 +1,4 @@
-// https://doc.rust-lang.org/rust-by-example/hello/print.html
-fn main() {
+fn index() {
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.
     println!("{} days", 31);
@@ -64,8 +63,10 @@ fn main() {
 
     println!("Pi is roughly {:.decimals$}", pi);
     println!("Pi is roughly {:.2}", pi);
+}
 
-
-
+fn main() {
+    // https://doc.rust-lang.org/rust-by-example/hello/print.html
+    index();
 
 }
