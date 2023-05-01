@@ -68,6 +68,7 @@ fn index() {
 }
 
 // https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html
+#[allow(dead_code)]
 fn debug() {
 
     // This structure cannot be printed either with `fmt::Display` or
