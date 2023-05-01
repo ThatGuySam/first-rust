@@ -1,4 +1,6 @@
-#[allow(dead_code)] 
+
+// https://doc.rust-lang.org/rust-by-example/hello/print.html
+#[allow(dead_code)]
 fn index() {
     // In general, the `{}` will be automatically replaced with any
     // arguments. These will be stringified.
@@ -65,6 +67,7 @@ fn index() {
     println!("Pi is roughly {:.2}", pi);
 }
 
+// https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html
 fn debug() {
 
     // This structure cannot be printed either with `fmt::Display` or
@@ -84,10 +87,8 @@ fn debug() {
 }
 
 fn main() {
-    // https://doc.rust-lang.org/rust-by-example/hello/print.html
     // index();
 
-    // https://doc.rust-lang.org/rust-by-example/hello/print/print_debug.html
     debug();
 
 }
